@@ -1,0 +1,14 @@
+There are 2 types of Context Global, Execution
+
+Golbal will be bottom of the stack and execution will line uo on it 
+Calling a function is of execution context.
+
+Ex : declaring a varible at the start of the file(ngOninit) will be in Global context and variables/let declared in a function will be available in Execution Context.
+
+Context has 3 type :
+  Variable Object
+  This
+  Scope Chain
+
+Function declaration are scanned and made available
+Variable declarations are scanned and made undefined
