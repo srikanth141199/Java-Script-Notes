@@ -16,3 +16,34 @@
   border-radius: 50%;
   display: inline-block;
 }
+
+/* .bg-warging {
+  background-color: orange;
+  height: 150px;
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.list-group {
+  background-color: rgb(14, 13, 13);
+}
+.list-group-item {
+  color: antiquewhite;
+  text-align: left;
+}
+.float-right {
+  float: right;
+}
+.but {
+  text-align: center;
+}*/
+
+.section3{
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+} 
