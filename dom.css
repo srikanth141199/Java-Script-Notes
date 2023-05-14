@@ -40,10 +40,13 @@
   text-align: center;
 }*/
 
-.section3{
+.section3 {
   background-color: rgb(66, 66, 66);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-} 
+}
+.cost {
+  float: right;
+}

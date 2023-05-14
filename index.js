@@ -3,6 +3,7 @@ import './style.css';
 import './dom.css';
 
 import './dom.js';
+import './elementTextNode.js'
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
