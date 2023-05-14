@@ -13,4 +13,4 @@ const obj = require('./classAndModuleExports/classObject.js');
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
-//watched till 47
+//watched till 55
