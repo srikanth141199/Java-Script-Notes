@@ -17,6 +17,11 @@ class User {
   getCourseList() {
     return this.courseList;
   }
+
+  //making statis won't allow child class to inherit this function.
+  static login() {
+    return 'User logged in';
+  }
 }
 
 module.exports = User;
@@ -31,15 +36,15 @@ console.log('Rock Course List : ', rock.getCourseList());
 
 //here we defined a class which extendes the User class, SubAdmin has access to all the functions of the User class
 
-class SubAdmin extends User{
-  constructor(name,email){
-    super(name,email);
+class SubAdmin extends User {
+  constructor(name, email) {
+    super(name, email);
   }
-  getAdminInfo(){
-    return "I'm Sub Admin"
+  getAdminInfo() {
+    return "I'm Sub Admin";
   }
 }
 
-const tom = new SubAdmin();
-console.log('This SubAdmin class : ',tom.getAdminInfo());
-console.log(tom.getInfo('Ajay','ajay@gmail.com'))
+const tom = new SubAdmin('tom', 'tom@gmail.com');
+console.log('This SubAdmin class : ', tom.getAdminInfo());
+console.log(tom.getInfo());
