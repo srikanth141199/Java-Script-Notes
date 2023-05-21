@@ -28,3 +28,18 @@ rock.enrollCourse('Angular');
 
 console.log('Rock Course List : ', rock.courseList);
 console.log('Rock Course List : ', rock.getCourseList());
+
+//here we defined a class which extendes the User class, SubAdmin has access to all the functions of the User class
+
+class SubAdmin extends User{
+  constructor(name,email){
+    super(name,email);
+  }
+  getAdminInfo(){
+    return "I'm Sub Admin"
+  }
+}
+
+const tom = new SubAdmin();
+console.log('This SubAdmin class : ',tom.getAdminInfo());
+console.log(tom.getInfo('Ajay','ajay@gmail.com'))
